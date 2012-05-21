@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # Copyright (C) 2010, T-Mobile USA, Inc.
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+ #      http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ -->
+
+<resource-redirections>
+    <item name="drawable/bg_pressed">@drawable/com_google_android_googlequicksearchbox_bg_pressed</item>
+    <item name="drawable/help_connector">@drawable/com_google_android_googlequicksearchbox_help_connector</item>
+    <item name="drawable/textfield_search_right_selected_holo_dark">@drawable/com_google_android_googlequicksearchbox_textfield_search_right_selected_holo_dark</item>
+    <item name="drawable/textfield_search_selected_holo_dark">@drawable/com_google_android_googlequicksearchbox_textfield_search_selected_holo_dark</item>
+    <item name="drawable/textfield_search_widget_focused_holo">@drawable/com_google_android_googlequicksearchbox_textfield_search_widget_focused_holo</item>
+    <item name="mipmap/search_app_icon">@drawable/com_google_android_googlequicksearchbox_search_app_icon</item>
+</resource-redirections>

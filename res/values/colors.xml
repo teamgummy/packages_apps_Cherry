@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+    <drawable name="screen_background_light">#ffffffff</drawable>
+    <drawable name="screen_background_dark">#ff000000</drawable>
+    <drawable name="status_bar_closed_default_background">#ff000000</drawable>
+    <drawable name="status_bar_opened_default_background">#ff000000</drawable>
+    <drawable name="search_bar_default_color">#ff000000</drawable>
+    <drawable name="safe_mode_background">#60000000</drawable>
+    <!-- Background drawable that can be used for a transparent activity to
+         be able to display a dark UI: this darkens its background to make
+         a dark (default theme) UI more visible. -->
+    <drawable name="screen_background_dark_transparent">#80000000</drawable>
+    <!-- Background drawable that can be used for a transparent activity to
+         be able to display a light UI: this lightens its background to make
+         a light UI more visible. -->
+    <drawable name="screen_background_light_transparent">#80ffffff</drawable>
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="color_primary_focus">#ffDC1312</color>
+    <color name="color_primary_press">#ffa50e0d</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_dark">#ff000000</color>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_dark_inverse">#ff000000</color>
+    <color name="dim_foreground_dark">#bebebe</color>
+    <color name="dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dim_foreground_dark_inverse">#323232</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="hint_foreground_dark">#808080</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="dim_foreground_light">#323232</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#bebebe</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="holo_blue_light">#ffDC1312</color>
+    <color name="holo_blue_dark">#ffa50e0d</color>
+    <color name="holo_green_light">#ffDC1312</color>
+    <color name="holo_green_dark">#ffa50e0d</color>
+    <color name="holo_red_light">#ffDC1312</color>
+    <color name="holo_red_dark">#ffa50e0d</color>
+    <color name="holo_orange_light">#ffDC1312</color>
+    <color name="holo_orange_dark">#ffa50e0d</color>
+    <color name="holo_purple">#ffDC1312</color>
+    <color name="holo_blue_bright">#ffDC1312</color>
+    <color name="highlighted_text_dark">#99a50e0d</color>
+    <color name="highlighted_text_light">#99DC1312</color>
+    <color name="link_text_dark">#ffaaaaaa</color>
+    <color name="link_text_light">#ff333333</color>
+    <color name="suggestion_highlight_text">#ffffffff</color>
+    <color name="perms_dangerous_grp_color">#DC1312</color>
+    <color name="perms_dangerous_perm_color">#DC1312</color>
+    <color name="search_url_text_normal">#ff999999</color>
+    <color name="keyguard_text_color_unlock">#ffffffff</color>
+    <color name="keyguard_text_color_soundon">#ffffffff</color>
+    <color name="keyguard_text_color_decline">#ffffffff</color>
+    <color name="lockscreen_clock_background">#cc000000</color>
+    <color name="lockscreen_owner_info">#ffffffff</color>
+    <color name="highlighted_text_holo_dark">#66DC1312</color>
+    <color name="highlighted_text_holo_light">#66DC1312</color>
+    <color name="link_text_holo_dark">#ffa50e0d</color>
+    <color name="link_text_holo_light">#ffDC1312</color>
+    <color name="group_button_dialog_pressed_holo_dark">#46a50e0d</color>
+    <color name="group_button_dialog_focused_holo_dark">#26a50e0d</color>
+    <color name="group_button_dialog_focused_holo_light">#46DC1312</color>
+    <color name="legacy_pressed_highlight">#ff808080</color>
+    <color name="legacy_selected_highlight">#ff808080</color>
+
+    <drawable name="input_method_fullscreen_background">#fff9f9f9</drawable>
+
+    <!-- For date picker widget -->
+    <drawable name="selected_day_background">#ffDC1312</drawable>
+
+    <!-- For settings framework -->
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+
+    <!-- For security permissions -->
+    <color name="launcher_glow_pressed">#ffa50e0d</color>
+    <color name="launcher_glow_focused">#ffDC1312</color>
+
+    <color name="androidian_green">#ffDC1312</color>
+    <color name="androidian_green_dark">#ffa50e0d</color>
+    <color name="androidian_green_bright">#ff13b400</color>
+
+    <!-- For Browser -->
+    <color name="qc_normal">#E0DC1312</color>
+    <color name="qc_selected">#F0a50e0d</color>
+
+    <!-- For Calendar -->
+    <color name="today_highlight_color">#00DC1312</color>
+    <color name="event_background">#ffDC1312</color>
+    <color name="calendar_grid_area_selected">#e6DC1312</color>
+    <color name="appwidget_row_in_progress">#66DC1312</color>
+
+    <!-- For Camera -->
+    <color name="review_control_pressed_color">#FFDC1312</color>
+    <color name="review_control_pressed_fan_color">#3FDC1312</color>
+    <color name="popup_title_color">#ffDC1312</color>
+    <color name="mode_selection_border">#DC1312</color>
+
+    <!-- For Phone -->
+    <color name="incall_call_state_label_background">#80DC1312</color>
+    <color name="people_app_theme_color">#DC1312</color>
+
+    <!-- For Email -->
+    <color name="message_view_header_color">#DC1312</color>
+    <color name="message_activated_color">#DC1312</color>
+
+    <!-- For SystemUI -->
+    <drawable name="notification_item_background_color_pressed">#ffa50e0d</drawable>
+</resources>
+
